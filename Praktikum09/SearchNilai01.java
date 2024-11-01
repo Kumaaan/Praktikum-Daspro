@@ -20,16 +20,12 @@ public class SearchNilai01 {
                 hasil = i + 1;
                 break;
             }
-       
         }
         if (hasil == 0) {
             System.out.println("Nilai yang dicari tidak ditemukan");
-            
         }else {
-            System.out.println();
             System.out.println("Nilai " + key + " merupakan nilai mahasiswa ke-" + hasil);
-            System.out.println();
         }
-
+        sc.close();
     }
 }

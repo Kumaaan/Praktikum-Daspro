@@ -6,7 +6,7 @@ public class ArrayNilai01 {
         int [] nilaiAkhir = new int[10];
 
         for (int i = 0; i < nilaiAkhir.length; i++){
-            System.out.print("Masukkan nilai akhir ke-" + i+ ": ");
+            System.out.print("Masukkan nilai akhir ke-" + (i + 1) + ": ");
             nilaiAkhir[i] = sc.nextInt();
         }
         for (int i = 0; i < nilaiAkhir.length; i++){
